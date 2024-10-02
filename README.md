@@ -21,7 +21,7 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/WeChat.git
+git clone https://github.com/itsChiranth/WeChat.git
 Navigate to the project directory:
 bash
 Copy code
