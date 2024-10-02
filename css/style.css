@@ -1,0 +1,90 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 114px;
+    height: 122px;
+    
+}
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:  rgb(80, 24, 24);
+}
+.container{
+    max-width: 955px;
+    background-color: rgb(7, 168, 155);
+    margin: auto;
+    height: 37vh;
+    padding: 33px;
+    border: 10px solid white;
+    overflow-y: auto;
+    margin-bottom: 7px;
+    background-image: url("/chat.jpg");
+    background-size: cover;
+    border-radius: 13px;
+}
+.message{
+    background-color: rgb(80, 24, 24);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+
+}
+.left{
+    float:left;
+    clear: both;
+
+}
+.right{
+float:right;
+
+clear:both;
+
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+
+}
+#msginp{
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    margin: 2px;
+
+}
+.btn{
+    cursor: pointer;
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 6px;
+    height: 34px;
+    background: none;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+body {
+    height: 100vh;
+    background-image: url("/a.jpg");
+    background-size: cover;
+
+}
+.container img{
+    width: 50%;
+}
